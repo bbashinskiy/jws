@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 1.6//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/1.5/template-install.dtd">
+<extension version="2.5" type="template" client="site">
+	<name>jf_creativia</name>
+	<creationDate>24/01/14</creationDate>
+	<author>Kreatif Multimedia GmbH</author>
+	<authorEmail>info@joomfreak.com</authorEmail>
+	<authorUrl>http://www.joomfreak.com</authorUrl>
+	<copyright>Kreatif Multimedia GmbH</copyright>
+	<license>Attribution 2.5 Generic (CC BY 2.5)</license>
+	<version>1.0.0</version>
+	<description>
+	<![CDATA[<style type="text/css" media="all"><!--#container {padding:0 10px;}h2 {font-family: Arial Narrow,sans-serif;font-size:24px;margin:0; color:#000;}--></style>
+  <div id="container"><h2>jf Creativia</h2><hr color="#E6E6E6" size="0"><p><i>joomfreak 01-2014 Joomla 2.5 Template | Creative Commons | by joomfreak.com!</i></p><hr color="#E6E6E6" size="0"><p>License: <strong><a href="http://creativecommons.org/licenses/by/2.5/" target="_blank">Creative Commons, Attribution 2.5 Generic (CC BY 2.5)</a></strong></p><hr color="#E6E6E6" size="0"><p>JF Creativia demo available here &raquo; <strong><a href="http://www.joomfreak.com/demo/" target="_blank">joomfreak Demo Server</a></strong></p><hr color="#E6E6E6" size="0"><p><a title="Visit our official website!" href="http://www.joomfreak.com" target="_blank"><img style="padding-left: 5px;" src="../templates/jf_creativia/images/core/jf_creativia.jpg" border="0" alt="Logo" /></a></p><img style="padding-left: 5px;" src="../templates/jf_creativia/images/core/module_positions.jpg" border="0" alt="Module Positions" /><img style="padding-left: 5px;" src="../templates/jf_creativia/images/core/module_positions2.jpg" border="0" alt="Module Positions 2" /></div>]]>
+  	</description>
+
+	<files>
+		<filename>component.php</filename>
+		<filename>favicon.ico</filename>
+		<filename>index.html</filename>
+		<filename>index.php</filename>
+		<filename>template_preview.png</filename>
+		<filename>templateDetails.xml</filename>		
+		<filename>template_thumbnail.png</filename>		
+		<folder>css</folder>
+		<folder>html</folder>
+		<folder>images</folder>
+		<folder>lib</folder>
+	</files>
+
+	<positions>
+		<position>menu</position>
+		<position>bottom</position>
+		<position>left</position>
+		<position>right</position>
+		<position>top</position>
+		<position>search</position>
+		<position>submenu</position>
+		<position>bottom_menu</position>
+		<position>top_menu</position>
+		<position>logo</position>
+		<position>address</position>
+		<position>breadcrumb</position>
+		<position>translate</position>
+		<position>user1</position>
+		<position>user2</position>
+		<position>user3</position>
+		<position>user4</position>
+		<position>user5</position>
+		<position>user6</position>
+		<position>user7</position>
+		<position>user8</position>
+		<position>user9</position>
+	</positions>
+
+<config>
+	<fields name="params">
+		<fieldset name="basic" addfieldpath="/templates/jf_creativia/lib/php">
+		
+		<field name="Header01" type="header" default="Starting page settings" label="" description="" />
+				<field name="fpage" type="list" default="yes" label="Disable frontpage component" description="Disable if you want to show or hide the component on the frontpage.">
+					<option value="yes">Yes</option>
+					<option value="no">No</option>
+				</field>	
+		
+				<field name="startingpage" type="list" default="yes" label="Enable starting page" description="Enable if u want to show a starting page! Don´t forget to inlude your logo! The starting page will be shown only once per session to every user when he visits the page.">
+					<option value="yes">Yes</option>
+					<option value="no">No</option>
+				</field>
+				
+				<field name="spagen" type="text" default="templates/jf_creativia/images/core/starting-page-logo.png" size="80" label="Starting page logo" description="Enter the url of the logo that you would place on the starting page. Example : images/demo/starting-page-normal.jpg. The logo will be automatically centered horizontally and vertically based on image size!" />
+				
+			<field name="Header02" type="header" default="Website width" label="" description="" />
+				
+			<field name="Header03" type="header" default="Social Bookmarks and Copyright" label="" description="" />
+				<field name="facebook" type="text" default="https://www.facebook.com/joomfreak" size="30" label="Facebook URL " description="" />
+				<field name="linkedin" type="text" default="http://www.linkedin.com/company/joomfreak" size="30" label="Linkedin URL " description="" />
+				<field name="skype" type="text" default="callTo://USERNAME" size="30" label="Skype callto URL " description="" />
+				<field name="twitter" type="text" default="https://twitter.com/joomfreak" size="30" label="Twitter URL " description="" />
+				<field name="youtube" type="text" default="http://www.youtube.com/user/joomfreak" size="30" label="Youtube URL " description="" />
+				<field name="rss" type="text" default="index.php?format=feed&amp;type=rss" size="30" label="RSS URL " description="" />
+				<field name="copyright" type="text" default="&amp;copy; 2014 joomfreak.com" size="30" label="Copyright notice in the footer" description="" />						
+			
+			<field name="Header04" type="header" default="Contact Map" label="" description="" />
+				<field name="map" type="radio" default="1"
+					label="Display contact map"
+					description="Select an option">
+						<option value="0">No</option>
+  						<option value="1">Yes</option>
+				</field>
+				
+				<field name="latitude" type="text" default="51.508742"
+					label="Latitude"
+					description="Latitude"
+					filter="string" />
+					
+				<field name="longitude" type="text" default="-0.120850"
+					label="Longitude"
+					description="Longitude"
+					filter="string" />
+					
+				<field name="marker" type="radio" default="1"
+					label="Display marker"
+					description="Select an option">
+						<option value="0">No</option>
+  						<option value="1">Yes</option>
+				</field>
+				
+				<field name="markerdescription" type="textarea" default=""
+					label="Description for marker"
+					description="Enter plain text for a description on the maker." 
+					rows="5" cols="30" filter="safehtml" />
+					
+				<field name="longlat" type="map" label="Google Map" description="" ></field>
+							
+
+			</fieldset>
+		</fields>
+	</config>
+</extension>

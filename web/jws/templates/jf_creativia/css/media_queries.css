@@ -1,0 +1,10 @@
+#wrapper, #wrapper-k2, #wrapper-ct, .wrapper {
+    max-width: 960px; /* 960 px */
+    margin: 0 auto;
+	position: relative;
+}
+
+#container {
+	width: 100%;
+}
+

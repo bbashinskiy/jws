@@ -1,0 +1,44 @@
+/**	MAIN MENU **/
+div.main_menu li { float: left; }
+div.main_menu li:hover, div.main_menu li:focus {}
+div.main_menu li ul { position: absolute; width: 200px; left: -999em; top: 50px; z-index: 999; background: white; -moz-border-radius: 3px; -webkit-border-radius: 3px; -khtml-border-radius: 3px; border-radius: 3px;border: 1px solid #EDEDED; margin: 0; padding: 0; -moz-box-shadow: 0px 0px 15px #121212; -webkit-box-shadow: 0px 0px 15px #121212; box-shadow: 0px 0px 15px #666666; }
+div.main_menu li ul ul {}
+div.main_menu li ul:hover {}
+div.main_menu li li ul:hover {}
+div.main_menu li li {}
+div.main_menu li a, div.main_menu li span.separator { cursor: pointer; display : block; padding: 7px 0 25px 23px; text-transform: lowercase; color : #6e6e6e; font-size:24px; text-decoration: none; }
+div.main_menu li.active ul li a {font-weight: 300 !important;}
+div.main_menu li ul li a, div.main_menu li ul li span.separator { padding: 7px 20px 7px 20px; border-bottom: 1px solid #EDEDED; }
+div.main_menu li:hover ul, div.main_menu li.sfhover ul {left: auto;}
+div.main_menu li ul li {white-space: nowrap;width: 200px;}
+li.active.deeper.parent span.separator { opacity : 1.0 ; -ms-filter: "prodig:DXImageTransform.Microsoft.Alpha(Opacity=100)"; /* hack IE8 */	filter: apha(opacity = 100);/* hack IE7	*/}
+
+
+/** DEFAULT MENU **/
+.submenu ul, .submenu ul li, .submenu ul ul { list-style: none; margin: 0; padding: 0; }
+.submenu li { display:block; vertical-align: middle; border:none; margin:0 0 7px 0; zoom: 1; }
+.submenu li a, .submenu li span.separator { display : block; position : relative; /**	change	**/
+color:#67655E; padding: 10px 10px 8px 3%; text-transform: uppercase; letter-spacing: -0.5px; font-weight: normal; font-size:100%; text-decoration: none; z-index:10; }
+.submenu ul ul { margin: 0 0 0 4px; }
+.submenu li li { margin: 0; }
+.submenu li li a, .submenu li li span.separator { font-size:100%; text-transform: none; color:#666; background: transparent url(../images/puce-link.png) 5px 16px no-repeat; padding-left:16px; margin-left: 0; }
+
+/** if hover or active **/
+.submenu li > a:hover, .submenu li > span.separator:hover, .submenu li.current > a { color: #99CC66; }
+.submenu ul ul ul { margin: 0 0 0 20px; }
+.submenu li li li a, .submenu li li li span.separator { font-size:95%; text-transform: none; font-weight: normal; color:#777; text-indent:0; background-image :none; border:none; }
+.submenu li li li a:hover, .submenu li li li span.separator:hover, .submenu li li li a, .submenu li li li span.separator { background-image: none; border:none; }
+
+
+/**	BOTTOM MENU		**/
+div.user4 .menu ul { margin : 2px 0 3px 0; }
+div.user4 .menu li { padding:0; margin:0; display:inline-block; *display:inline; zoom: 1; list-style : none; }
+div.user4 .menu li a, div.user4 .menu li span.separator { text-decoration: none!important; text-transform: lowercase; color: #626262; font-size:18px; padding: 0px 3px; }
+div.user4 .menu li.active a, div.user4 .menu li:hover a,div.user4 .menu li a:active {text-decoration: none;}
+
+
+/**LEFT	 MENU		**/
+#left ul.menu { margin: 0; list-style: none; }
+#left ul.menu li { padding: 0; margin: 0;}
+#left ul.menu li a { display: block; padding: 15px; margin: 0; color: #626262; text-decoration: none; border-bottom: 1px solid #F2E7A5; }
+#left ul.menu li a:hover, #left ul.menu li a:active { color: #121212; background: #EDEDED; }

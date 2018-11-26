@@ -1,0 +1,400 @@
+@media (min-width: 1200px) {
+/* Joomla Article */
+.backToCategory {
+	position: absolute;
+	left: 0;
+	top: 120px;
+	right: 0;
+	z-index: 1;
+}
+.backToCategory p {
+	border-bottom: none;
+	-webkit-transform: rotate(90deg);
+	-moz-transform: rotate(90deg);
+	-o-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
+    -sand-transform: rotate(90deg);
+	writing-mode: lr-tb;
+	display: block;
+	position: relative;
+}
+
+.backToCategory p {
+	color: #000;
+	font-size: 32px;
+	margin: 0;
+}
+
+.backToCategory a {
+	color: #fff;
+	font-size: 72px;
+	text-decoration: none;
+}
+}
+
+@media (min-width: 768px) {
+/* Joomla Article */
+.rotate {
+	position: absolute;
+	left: 0;
+	top: 120px;
+	right: 0;
+	z-index: 1;
+}
+
+.rotate h1 {
+	border-bottom: none;
+	-webkit-transform: rotate(90deg);
+	-moz-transform: rotate(90deg);
+	-o-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
+    -sand-transform: rotate(90deg);
+	writing-mode: lr-tb;
+	display: block;
+	position: relative;
+}
+
+.rotate h1 a {
+	color: #717376;
+	text-decoration: none;
+}
+}
+
+@media (min-width: 768px) and (max-width: 959px) {
+.jflabel_skitter {
+    left: 15% !important;
+    position: absolute;
+    top: 25% !important;
+}
+
+#google-map {
+	float: none;
+	width: 100%;
+}
+
+#jform_contact_message {
+	max-width: 100%;
+	width: auto;
+	padding: 5px;
+}
+
+span.catItemImage img, span.userItemImage img, span.tagItemImage img, .blog .item img {
+	max-width: 370px;
+}
+
+div.catItemLinks, div.userItemLinks, div.tagItemLinks {
+	margin: 0 0 30px;
+}
+
+div.separator {
+	margin: 10px 0 0;
+}
+
+.items-row div.separator {
+	margin: 30px 0 10px;
+}
+
+.rotate h1 a {
+	color: #717376;
+	text-decoration: none;
+}
+}
+
+@media screen and (max-width: 767px) {
+h2 {
+	font-size: x-large;
+}
+
+h1, div.catItemHeader h3.catItemTitle, .page-header h1, .page-header h2, h2.contentheading, .itemView h2.itemTitle {	
+	font-size: xx-large;
+	line-height: 1.2em;
+}
+
+#jf_logo {
+	padding: 30px 0;
+}
+
+div.catItemHeader h3.catItemTitle, .page-header h1, .page-header h2 {
+	margin-bottom: 15px;
+}
+
+.k2Pagination ul li .pagenav, .pagination ul li .pagenav {
+	font-size: x-large;
+}
+
+#jf_logo, .main_menu_box {
+	float: none;	
+}
+
+#jf_logo {
+	text-align: center;
+}
+
+.main_menu_box {
+	padding-top: 0;
+}
+
+#submenu ul li:first-child, #k2-menu-container li:first-child {
+	background: url(../images/k2-menu-container-separator.png) no-repeat scroll 15px 22px;
+}
+
+#mod_jfslideshow_wrapper {
+	z-index: 9;
+}
+
+.jflabel_skitter {
+	left: 10% !important;
+	top: 20% !important;
+}
+
+.label_skitter_container {
+	padding: 10px;
+}
+
+.slidedescription {
+	max-width: 100%;
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
+div#left, div#cholder-l {
+	border-left: medium none;
+    float: none;
+    padding: 0;
+    width: 100%;
+}
+
+div.cholder-inner {
+	border-left: none;
+	margin: 0;
+	padding: 0;
+}
+
+div.catItemRatingComment {
+	float: none;
+	margin: 10px 0 0;
+}
+
+div.catItemImageBlock, div.userItemImageBlock, div.tagItemImageBlock {
+	float: none;
+	margin: 0 0 15px;
+}
+
+span.catItemImage img, span.userItemImage img, span.tagItemImage img {
+	min-width: 100%;
+}
+
+#google-map {
+	float: none;
+	width: 100%;
+	margin: 27px 0 0;
+}
+
+fieldset dt {
+	padding: 3px 0;
+}
+
+#jform_contact_message {
+	max-width: 100%;
+	width: auto;
+	padding: 5px;
+}
+
+.backToTop {
+	position: static;
+	margin: 20px 0 0 !important;
+}
+
+#bot .user {
+	float: none;
+	padding: 0;
+	width: auto !important;
+}
+
+.user1, .user2, .user3, .user4, .user5, .user6 {
+	background: none;
+}
+
+.user2 > div, .user5 > div, .user3 > div, .user6 > div {
+	padding: 0 3px;
+}
+
+#k2-menu-container ul#filters {
+	background-color: #EBE6D6;
+}
+
+div.catItemLinks, div.userItemLinks, div.tagItemLinks {
+	margin: 0 0 20px;
+}
+
+div.separator {
+	margin: 5px 0 0;
+}
+
+.items-row div.separator {
+	margin: 30px 0 10px;
+}
+
+.rotate h1 a {
+	color: #717376;
+	text-decoration: none;
+}
+}
+
+@media screen and (max-width: 600px) {
+.img-intro-right, .img-fulltext-left {
+	float: none;
+	margin: 0 0 15px;
+	text-align: center;
+}
+
+.jfprev_button, .jfnext_button {
+	display: none;
+}
+
+.jflabel_skitter {
+	left: 0 !important;
+	top: 20% !important;
+}
+}
+
+@media screen and (max-width: 400px) {
+.k2Pagination ul li .pagenav, .pagination ul li .pagenav {
+	font-size: x-large;
+}
+
+#jf_logo, .main_menu_box {
+	float: none;	
+}
+
+.main_menu_box {
+	padding-top: 0;
+	margin-bottom: 30px;
+}
+
+#navbutton {
+    display: block;
+}
+
+.main_menu {
+	background-color: #F5F5F5;
+	display: none;
+	padding: 0;
+}
+
+div.main_menu li {
+	float: none;
+	border: 1px solid #bbb;
+	border-top: none;
+	padding: 0 10px;
+}
+
+div.main_menu li a, div.main_menu li span.separator {
+	font-size: 18px;
+	padding: 3px 0;
+}
+
+div.main_menu li ul {
+	position: static; 
+	width: auto; 
+	background: none; 
+	border: none; 
+	margin: 0; 
+	padding: 0; 
+	-moz-box-shadow: none; 
+	-webkit-box-shadow: none; 
+	box-shadow: none;
+}
+
+div.main_menu li:hover ul {
+	left: auto;
+	top: auto;
+	width: auto;
+}
+
+div.main_menu li ul li {
+	border: none;
+	width: auto;
+}
+
+div.main_menu li ul li a, div.main_menu li ul li span.separator {
+    border-bottom: 1px solid #EDEDED;
+    padding: 3px 0;
+}
+
+#submenu ul, #submenu ul li, #k2-menu-container ul#filters, #k2-menu-container li {
+	float: none;
+}
+
+#submenu ul li:first-child, #k2-menu-container li:first-child {
+	background: url(../images/k2-menu-container-separator.png) no-repeat scroll 15px 22px;
+}
+
+.jfprev_button, .jfnext_button {
+	display: none;
+}
+
+.jflabel_skitter {
+	left: 0 !important;
+	top: 0 !important;
+}
+
+.slidedescription {
+	max-width: 100%;
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
+div.catItemCommentsLink {
+	margin-bottom: 10px;
+}
+
+div.c-bottom1, div.c-bottom2, div.c-bottom3 {
+	float: none;
+	width: 100% !important;
+}
+
+div#left, div#cholder-l {
+	border-left: medium none;
+    float: none;
+    padding: 0;
+    width: 100%;
+}
+
+div.cholder-inner {
+	border-left: none;
+	margin: 0;
+	padding: 0;
+}
+
+.backToTop {
+	position: static;
+	margin: 20px 0 0 !important;
+}
+
+#google-map {
+	float: none;
+	width: 100%;
+	margin: 27px 0 0;
+}
+
+#jform_contact_message {
+	width: 240px;
+}
+
+#bot .user {
+	float: none;
+	padding: 0;
+	width: auto !important;
+}
+
+.user1, .user2, .user3, .user4, .user5, .user6 {
+	background: none;
+}
+
+.user2 > div, .user5 > div, .user3 > div, .user6 > div {
+	padding: 0 3px;
+}
+}

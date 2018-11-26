@@ -1,0 +1,19 @@
+body.contentpane {
+	padding: 20px;
+}
+
+div.mailto-close {
+	margin: 10px 0;
+}
+
+#mailtoForm .formelm {
+	margin-bottom: 10px;
+}
+
+#mailtoForm label {
+	display: block;
+}
+
+#mailtoForm button {
+	display: inline;
+}
